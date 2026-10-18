@@ -14,3 +14,18 @@
 # 10) Vypiš každé písmeno slova "Praha".
 # 11) Přidávej do košíku jablka, dokud košík neváží aspoň 2 kg.
 # 12) Projdi 30 odpovědí v testu a spočítej, kolik jich je správně.
+
+
+
+1. for
+2. while
+3. while
+4. while
+5. while
+6. for
+7. while
+8. for
+9. for
+10. for
+11. while
+12. for

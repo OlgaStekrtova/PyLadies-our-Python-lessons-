@@ -5,3 +5,7 @@
 #    Pak vypiš "Odemčeno!".
 
 
+while True:
+    password = input ("Type ur password:")
+    if int(password) == 1234:
+        print("Odemčeno!") 

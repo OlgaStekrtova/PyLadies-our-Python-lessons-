@@ -5,3 +5,9 @@
 #    Pak vypiš, kolik čísel stihl zadat.
 
 
+pocet = 0
+cislo = int(input("Your number is?"))
+while cislo >= 0:
+    pocet = pocet + 1
+    cislo = int(input("Your number is?"))
+print("Amount of ur numbers before negative ones", pocet)
