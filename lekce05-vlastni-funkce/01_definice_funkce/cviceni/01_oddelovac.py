@@ -5,3 +5,9 @@
 #    Zavolej ji třikrát.
 
 
+def oddelovac ():
+    print("*" * 30)
+
+for radek in range(3):
+    oddelovac()
+

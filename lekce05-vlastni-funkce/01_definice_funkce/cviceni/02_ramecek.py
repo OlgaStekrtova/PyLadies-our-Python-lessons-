@@ -8,3 +8,24 @@
 # definici sem nahoru, soubory se navzájem nevidí.
 
 
+def oddelovac():
+    print("*" * 20 + "\n" + "meaw meaw meaw" + "\n" + "*" * 20)
+    print("*" * 20 + "\n" + "blah blah blah" + "\n" + "*" * 20)
+
+for radek in range(1):
+    oddelovac()
+
+
+# or 2 variant
+
+def oddelovac():
+    return("*" * 20)
+
+def words():
+    print(oddelovac())
+    print("meaw meaw meaw")
+    print(oddelovac())
+    print(oddelovac())
+    print("blah blah blah")
+    print(oddelovac())
+words()

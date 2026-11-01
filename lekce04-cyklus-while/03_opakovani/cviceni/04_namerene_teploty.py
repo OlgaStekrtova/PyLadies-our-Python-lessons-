@@ -5,3 +5,13 @@
 #    "Další? (ano/ne) ". Až odpoví "ne", vypiš nejvyšší teplotu.
 
 
+nejvyssi = int(input("Zadej teplotu: "))
+while True:
+    dalsi = input("Další? (ano/ne) ")
+    if dalsi == "ne":
+        break
+    teplota = int(input("Zadej teplotu: "))
+    if teplota > nejvyssi:
+        nejvyssi = teplota
+
+print("Nejvyšší teplota byla", nejvyssi)
